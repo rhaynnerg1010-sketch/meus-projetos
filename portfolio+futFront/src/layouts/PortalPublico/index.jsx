@@ -15,7 +15,7 @@ const PortalPublico = () => {
     </main>
 
     <Footer>
-    <p>Olha aqui o filho do Footer</p>
+    <p></p>
     </Footer>
     </>
   );

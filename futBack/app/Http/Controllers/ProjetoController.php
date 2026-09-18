@@ -2,23 +2,22 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\projeto;
-use App\Models\Projeto as ModelsProjeto;
+use App\Models\Projeto;
 use Illuminate\Http\Request;
+use App\Http\Resources\ProjetoResource;
 
 class ProjetoController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
+
+    public function index(Request $request)
     {
-        return response()->json(Projeto::all(), 200);
+    $limit = $request->input('limit',5);
+
+     $projeto = Projeto::latest()->take($limit)->get();
+    
+    return ProjetoResource::collection($projeto);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(Request $request)
     {
          $projeto = Projeto::create($request->all());

@@ -4,7 +4,7 @@ const Footer = ({children}) =>{
             <div>
                 {children}
                 <small>
-                Todos os direitos reservados.
+                
                 </small>
             </div>
         </footer>
