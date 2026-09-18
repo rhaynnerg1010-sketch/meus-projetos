@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import "./styles.css";
+import "./Asidebar.css";
 
 const Asidebar = () => {
   return (
@@ -17,6 +17,14 @@ const Asidebar = () => {
         <NavLink to="/dashboard" end className="dashboard-nav-link">
           <i className="bi bi-grid-1x2-fill" aria-hidden="true" />
           Visão geral
+        </NavLink>
+        <NavLink to="/atividades" className="dashboard-nav-link">
+          <i className="bi bi-clock-history" aria-hidden="true" />
+          Atividades
+        </NavLink>
+        <NavLink to="/novo-projeto" className="dashboard-nav-link">
+          <i className="bi bi-kanban" aria-hidden="true" />
+          Novo projeto
         </NavLink>
         <NavLink to="/configurações" className="dashboard-nav-link">
           <i className="bi bi-sliders2-vertical" aria-hidden="true" />

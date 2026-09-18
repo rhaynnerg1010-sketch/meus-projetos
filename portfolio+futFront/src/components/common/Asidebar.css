@@ -1,6 +1,7 @@
 .dashboard-aside {
-  background: #102a27;
-  color: #f4f7ef;
+  background: #020617;
+  border-right: 1px solid #1e293b;
+  color: #f8fafc;
   min-height: 100vh;
   width: 260px;
   flex-shrink: 0;
@@ -8,14 +9,14 @@
 
 .dashboard-brand {
   align-items: center;
-  color: #f4f7ef;
+  color: #f8fafc;
   display: flex;
   font-size: 1.05rem;
   gap: 0.7rem;
 }
 
 .dashboard-brand small {
-  color: #9db4ad;
+  color: #94a3b8;
   display: block;
   font-size: 0.68rem;
   margin-top: 0.15rem;
@@ -24,9 +25,9 @@
 .dashboard-brand-mark,
 .dashboard-avatar {
   align-items: center;
-  background: #c8ee42;
+  background: #38bdf8;
   border-radius: 10px;
-  color: #102a27;
+  color: #020617;
   display: inline-flex;
   font-weight: 800;
   height: 38px;
@@ -35,7 +36,7 @@
 }
 
 .dashboard-nav-label {
-  color: #77958c;
+  color: #64748b;
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -46,7 +47,7 @@
   align-items: center;
   background: transparent;
   border-radius: 8px;
-  color: #b9cbc5;
+  color: #cbd5e1;
   display: flex;
   gap: 0.7rem;
   padding: 0.75rem 0.85rem;
@@ -58,12 +59,12 @@
 .dashboard-nav-link:hover,
 .dashboard-nav-link.active,
 .dashboard-back-link:hover {
-  background: #1d4841;
-  color: #c8ee42;
+  background: #0f2a42;
+  color: #38bdf8;
 }
 
 .dashboard-aside-footer {
-  border-top: 1px solid #2c514a;
+  border-top: 1px solid #1e293b;
   padding-top: 1rem;
 }
 

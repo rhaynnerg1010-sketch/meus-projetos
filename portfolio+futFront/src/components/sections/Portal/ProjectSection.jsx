@@ -1,4 +1,4 @@
-import CardProjeto from "../../../ui/CardProject";
+import CardProjeto from "./ProjectCard";
 
 const projetos = [
   {
